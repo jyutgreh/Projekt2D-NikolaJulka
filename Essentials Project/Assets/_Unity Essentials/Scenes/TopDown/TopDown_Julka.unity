@@ -385,7 +385,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1499495688}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetMusicVolume
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3517,13 +3517,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 907087207}
   - {fileID: 269888948}
   - {fileID: 1639899504}
   - {fileID: 1855144365}
   - {fileID: 1302720237}
   - {fileID: 162340811}
   - {fileID: 2011610254}
-  - {fileID: 907087207}
   m_Father: {fileID: 1823542141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4041,7 +4041,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1499495688}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetSFXVolume
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

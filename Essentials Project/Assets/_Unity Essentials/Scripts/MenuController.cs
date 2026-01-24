@@ -9,10 +9,16 @@ public class MenuController : MonoBehaviour
     private bool sfxMuted = false;
     public GameObject menu;
     private bool menuActive = false;
+    Scene scene;
+
+    private void Start()
+    {
+        scene = SceneManager.GetActiveScene();
+    }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.K) && scene.name == "TopDown_Julka")
         {
             menuActive = !menuActive;
             menu.SetActive(menuActive);
